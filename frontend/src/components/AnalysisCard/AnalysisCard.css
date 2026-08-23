@@ -1,0 +1,45 @@
+.analysis-card{
+
+background:#151515;
+
+border-radius:20px;
+
+padding:25px;
+
+border:1px solid rgba(255,255,255,.08);
+
+transition:.35s;
+
+}
+
+.analysis-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 40px rgba(255,94,0,.15);
+
+}
+
+.analysis-card h2{
+
+color:#ff6a00;
+
+margin-bottom:18px;
+
+}
+
+.analysis-card ul{
+
+padding-left:20px;
+
+}
+
+.analysis-card li{
+
+margin-bottom:12px;
+
+line-height:1.7;
+
+color:#ddd;
+
+}

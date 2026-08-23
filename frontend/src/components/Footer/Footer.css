@@ -1,0 +1,155 @@
+.footer{
+
+background:#050505;
+padding:90px 8% 30px;
+
+}
+
+.footer-container{
+
+display:grid;
+grid-template-columns:2fr 1fr 1fr 1.5fr;
+gap:60px;
+
+}
+
+.footer-logo{
+
+display:flex;
+align-items:center;
+gap:12px;
+color:#ff5e00;
+font-size:26px;
+font-weight:700;
+margin-bottom:20px;
+
+}
+
+.footer-about p{
+
+color:#bdbdbd;
+line-height:1.9;
+
+}
+
+.social-icons{
+
+display:flex;
+gap:15px;
+margin-top:25px;
+
+}
+
+.social-icons a{
+
+width:45px;
+height:45px;
+border-radius:50%;
+background:#181818;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+transition:.3s;
+
+}
+
+.social-icons a:hover{
+
+background:#ff5e00;
+transform:translateY(-5px);
+
+}
+
+.footer-links{
+
+display:flex;
+flex-direction:column;
+
+}
+
+.footer-links h3{
+
+color:white;
+margin-bottom:20px;
+
+}
+
+.footer-links a{
+
+color:#bdbdbd;
+text-decoration:none;
+margin-bottom:14px;
+transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+color:#ff5e00;
+
+}
+
+.newsletter h3{
+
+color:white;
+margin-bottom:20px;
+
+}
+
+.newsletter p{
+
+color:#bdbdbd;
+margin-bottom:20px;
+line-height:1.7;
+
+}
+
+.newsletter-box{
+
+display:flex;
+
+}
+
+.newsletter-box input{
+
+flex:1;
+padding:15px;
+background:#181818;
+border:none;
+outline:none;
+color:white;
+border-radius:10px 0 0 10px;
+
+}
+
+.newsletter-box button{
+
+width:65px;
+border:none;
+background:linear-gradient(135deg,#ff5e00,#ff2d55);
+color:white;
+border-radius:0 10px 10px 0;
+cursor:pointer;
+
+}
+
+.copyright{
+
+text-align:center;
+margin-top:60px;
+padding-top:30px;
+border-top:1px solid rgba(255,255,255,.08);
+color:#888;
+
+}
+
+@media(max-width:1000px){
+
+.footer-container{
+
+grid-template-columns:1fr;
+
+}
+
+}

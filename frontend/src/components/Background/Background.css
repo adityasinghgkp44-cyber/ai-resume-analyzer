@@ -1,0 +1,72 @@
+.background{
+    position:fixed;
+    inset:0;
+    overflow:hidden;
+    z-index:-2;
+    background:#050505;
+}
+
+.grid{
+    position:absolute;
+    inset:0;
+    background-image:
+        linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+    background-size:45px 45px;
+    mask-image: radial-gradient(circle at center, black 60%, transparent 100%);
+}
+
+.blob{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(120px);
+    opacity:.45;
+    animation:float 10s ease-in-out infinite;
+}
+
+.blob1{
+    width:450px;
+    height:450px;
+    background:#ff5e00;
+    top:-120px;
+    left:-120px;
+}
+
+.blob2{
+    width:420px;
+    height:420px;
+    background:#ff2d55;
+    bottom:-120px;
+    right:-100px;
+    animation-delay:3s;
+}
+
+.blob3{
+    width:350px;
+    height:350px;
+    background:#ff8a00;
+    top:40%;
+    left:50%;
+    animation-delay:6s;
+}
+
+.noise{
+    position:absolute;
+    inset:0;
+    opacity:.04;
+    background-image:
+    radial-gradient(circle,#fff 1px,transparent 1px);
+    background-size:14px 14px;
+}
+
+@keyframes float{
+
+0%,100%{
+transform:translate(0,0);
+}
+
+50%{
+transform:translate(40px,-40px);
+}
+
+}

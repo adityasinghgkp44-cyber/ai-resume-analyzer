@@ -1,0 +1,10 @@
+.ats-gauge{
+    width:220px;
+    margin:auto;
+    text-align:center;
+}
+
+.ats-gauge h3{
+    margin-top:20px;
+    color:white;
+}

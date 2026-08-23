@@ -1,0 +1,125 @@
+.topbar {
+  margin-left: 270px;
+  height: 80px;
+  padding: 0 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(20, 20, 20, .65);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+
+.topbar-left h2 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+.topbar-left span {
+  color: #ff7a18;
+}
+
+.topbar-left p {
+  color: #999;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-box {
+  width: 320px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 18px;
+  background: #181818;
+  border-radius: 12px;
+}
+
+.search-box input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+.notification-btn {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: none;
+  background: #181818;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.notification-dot {
+  width: 10px;
+  height: 10px;
+  background: #ff3b30;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.profile-mini {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: linear-gradient(135deg,#ff6a00,#ff2d55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.profile-mini h4 {
+  color: white;
+  margin: 0;
+  font-size: 15px;
+}
+
+.profile-mini p {
+  color: #999;
+  font-size: 12px;
+  margin: 2px 0 0;
+}
+
+@media(max-width:992px){
+
+.topbar{
+
+margin-left:90px;
+
+padding:20px;
+
+}
+
+.search-box{
+
+display:none;
+
+}
+
+.profile-mini div{
+
+display:none;
+
+}
+
+}

@@ -1,0 +1,43 @@
+.questions{
+
+background:#151515;
+
+padding:30px;
+
+border-radius:20px;
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+.questions h2{
+
+margin-bottom:25px;
+
+color:#ff6a00;
+
+}
+
+.question{
+
+padding:18px;
+
+background:#1b1b1b;
+
+margin-bottom:15px;
+
+border-radius:12px;
+
+}
+
+.question span{
+
+font-weight:bold;
+
+color:#ff6a00;
+
+display:block;
+
+margin-bottom:8px;
+
+}
