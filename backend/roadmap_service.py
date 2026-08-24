@@ -61,46 +61,7 @@ def generate_roadmap(missing_skills):
     result = []
     added = set()
 
-    for skill in missing_skills:
-
-        skill = skill.strip()
-
-        # Exact Match
-        if skill in roadmaps:
-
-            if skill not in added:
-
-                result.append({
-                    "skill": skill,
-                    "beginner": roadmaps[skill]["beginner"],
-                    "intermediate": roadmaps[skill]["intermediate"],
-                    "advanced": roadmaps[skill]["advanced"]
-                })
-
-                added.add(skill)
-
-            continue
-
-        # Alias Match
-        if skill in aliases:
-
-            for actual_skill in aliases[skill]:
-
-                if actual_skill in roadmaps and actual_skill not in added:
-
-                    result.append({
-                        "skill": actual_skill,
-                        "beginner": roadmaps[actual_skill]["beginner"],
-                        "intermediate": roadmaps[actual_skill]["intermediate"],
-                        "advanced": roadmaps[actual_skill]["advanced"]
-                    })
-
-                    added.add(actual_skill)
-
-            continue
-
-        # Case-insensitive Match
-        for roadmap_skill in roadmaps:
+           for roadmap_skill in roadmaps:
 
             if roadmap_skill.lower() == skill.lower():
 
@@ -116,6 +77,7 @@ def generate_roadmap(missing_skills):
                     added.add(roadmap_skill)
 
                 break
-        print("ROADMAP RESULT:", result)
+
+    print("ROADMAP RESULT:", result)
 
     return result
