@@ -5,7 +5,8 @@ aliases = {
     "Cloud Platforms (AWS/GCP/Azure)": ["AWS", "Azure", "GCP"],
     "AWS / Cloud Deployment": ["AWS"],
     "Cloud Deployment": ["AWS"],
-
+    "Docker Containerization": ["Docker"],
+    "Docker Containers": ["Docker"],
     "NoSQL Databases (MongoDB/PostgreSQL)": ["MongoDB", "PostgreSQL"],
     "NoSQL (MongoDB)": ["MongoDB"],
 
