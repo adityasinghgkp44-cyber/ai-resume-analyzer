@@ -21,6 +21,11 @@ aliases = {
     "JS": ["JavaScript"],
 
     "Python Programming": ["Python"],
+    "Python Programming Language": ["Python"],
+
+    "Docker Containerization": ["Docker"],
+    "Docker Containers": ["Docker"],
+    "Docker": ["Docker"],
 
     "HTML5": ["HTML"],
     "CSS3": ["CSS"],
@@ -46,7 +51,6 @@ aliases = {
         "Algorithms"
     ]
 }
-
 
 def generate_roadmap(missing_skills):
 
