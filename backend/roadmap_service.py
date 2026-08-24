@@ -116,6 +116,6 @@ def generate_roadmap(missing_skills):
                     added.add(roadmap_skill)
 
                 break
-            print("ROADMAP RESULT:", result)
+        print("ROADMAP RESULT:", result)
 
     return result
