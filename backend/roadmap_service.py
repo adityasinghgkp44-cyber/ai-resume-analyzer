@@ -56,6 +56,7 @@ aliases = {
 def generate_roadmap(missing_skills):
 
     print("MISSING SKILLS:", missing_skills)
+    print("DOCKER IN ROADMAPS:", "Docker" in roadmaps)
 
     result = []
     added = set()
